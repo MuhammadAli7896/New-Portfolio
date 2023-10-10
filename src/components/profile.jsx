@@ -4,6 +4,10 @@ import profilePic from "../assets/profile-pic.jpg";
 import LinkedIn from "../assets/linkedin.png";
 import GitHub from "../assets/github.png";
 import PDF from "/Ali-Resume.pdf"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 
 function Profile() {
     return (
@@ -20,7 +24,8 @@ function Profile() {
                         className="btn btn-color-2"
                         onClick={() => window.open(PDF, '_blank')}
                     >
-                        Download CV
+                        Resume <FontAwesomeIcon icon={faExternalLinkAlt} className='newTab'/> &nbsp;
+                        <FontAwesomeIcon icon={faFileDownload} className='download' />
                     </button>
                     <button className="btn btn-color-1" onClick={() => window.location.href = './#contact'}>
                         Contact Me
