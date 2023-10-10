@@ -212,6 +212,10 @@ section {
   gap: 1rem;
 }
 
+.download {
+  display: none;
+}
+
 /* ICONS */
 
 .icon {
@@ -558,6 +562,12 @@ footer p {
 }
 
 @media screen and (max-width: 600px) {
+  .download {
+    display: inline-block;
+  }
+  .newTab {
+    display: none;
+  }
   #contact {
     height: 40vh;
     margin: 250px 0px 200px;
