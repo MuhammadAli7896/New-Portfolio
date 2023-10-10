@@ -492,6 +492,11 @@ article .icon {
   border-radius: 10px;
 }
 
+.send {
+  font-size: 15px;
+  font-weight: 200;
+}
+
 /* FOOTER SECTION */
 
 footer {

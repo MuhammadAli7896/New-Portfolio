@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 import "../App.css";
-import email from "../assets/email.png"
-import LinkedIn from "../assets/linkedin.png"
 import emailjs from "@emailjs/browser";
 import validator from 'validator';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
     const formRef = useRef();
@@ -111,8 +111,9 @@ function Contact() {
                     </label>
                     <button
                         type='submit'
-                        className="btn btn-color-1"
-                    >{loading ? "Sending..." : "Send"}
+                        className="btn btn-color-1 send"
+                    >{loading ? "Sending..." : "Send"}  &nbsp;
+                     <FontAwesomeIcon icon={faEnvelope} size="20px" />
                     </button>
                 </form>
             </div>
