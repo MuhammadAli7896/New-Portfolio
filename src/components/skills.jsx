@@ -11,6 +11,8 @@ import tailwind from "../assets/tailwind.png";
 import arrow from "../assets/arrow.png";
 import sql from "../assets/sql.png";
 import express from "../assets/express.png";
+import mongodb from "../assets/mongodb.png";
+import socketio from "../assets/socket.io.png";
 
 function Skills() {
     return (
@@ -95,24 +97,13 @@ function Skills() {
                         <div className="article-container">
                             <article>
                                 <img
-                                    src={sql}
-                                    alt="SQL icon"
-                                    className="icon"
-                                />
-                                <div>
-                                    <h3>SQL</h3>
-                                    <p>Intermediate</p>
-                                </div>
-                            </article>
-                            <article>
-                                <img
                                     src={nodejs}
                                     alt="Node.js icon"
                                     className="icon"
                                 />
                                 <div>
                                     <h3>Node JS</h3>
-                                    <p>Intermediate</p>
+                                    <p>Experienced</p>
                                 </div>
                             </article>
                             <article>
@@ -123,7 +114,7 @@ function Skills() {
                                 />
                                 <div>
                                     <h3>Express JS</h3>
-                                    <p>Intermediate</p>
+                                    <p>Experienced</p>
                                 </div>
                             </article>
                             <article>
@@ -137,6 +128,39 @@ function Skills() {
                                     <p>Intermediate</p>
                                 </div>
                             </article>
+                            <article>
+                                <img
+                                    src={mongodb}
+                                    alt="mongodb icon"
+                                    className="icon"
+                                />
+                                <div>
+                                    <h3>Mongo DB</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                    src={sql}
+                                    alt="SQL icon"
+                                    className="icon"
+                                />
+                                <div>
+                                    <h3>SQL</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                    src={socketio}
+                                    alt="socket.io icon"
+                                    className="icon"
+                                />
+                                <div>
+                                    <h3>Socket.io</h3>
+                                    <p>Basic</p>
+                                </div>
+                            </article>
                         </div>
                     </div>
                 </div>
@@ -145,7 +169,7 @@ function Skills() {
                 src={arrow}
                 alt="Arrow icon"
                 className="icon arrow"
-                onClick={() => window.location.href = './#projects'}
+                onClick={() => window.location.href = './#contact'}
             />
         </section>
     );

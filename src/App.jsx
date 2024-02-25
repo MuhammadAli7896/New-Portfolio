@@ -16,8 +16,8 @@ function Portfolio() {
 			<Profile />
 			<About />
 			<Experience />
-			<Skills />
 			<Projects />
+			<Skills />
 			<Contact />
 			<Footer />
 		</>

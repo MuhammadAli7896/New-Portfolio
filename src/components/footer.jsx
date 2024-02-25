@@ -15,7 +15,7 @@ function Footer() {
                     </ul>
                 </div>
             </nav>
-            <p>Copyright &#169; 2023 Muhammad Ali. All Rights Reserved.</p>
+            <p>Copyright &#169; 2023-24 Muhammad Ali. All Rights Reserved.</p>
         </footer>
     );
 }

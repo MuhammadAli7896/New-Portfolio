@@ -7,6 +7,7 @@ import eTracker from "../assets/etracker.png";
 import highOrder from "../assets/high-order.jpeg";
 import darkMode from "../assets/dark-mode.png";
 import arrow from "../assets/arrow.png";
+import chatting from "../assets/chatting.jpeg"
 
 function Projects() {
     return (
@@ -15,6 +16,38 @@ function Projects() {
             <h1 className="title">Projects</h1>
             <div className="experience-details-container">
                 <div className="about-containers" id='projects-boxes'>
+                    <div className="details-container color-container">
+                        <div className="article-container">
+                            <img
+                                src={chatting}
+                                alt="Project 1"
+                                className="project-img"
+                            />
+                        </div>
+                        <h2 className="experience-sub-title project-title">Chatting Application</h2>
+                        <p>A MERN stack-based chatting app, enhanced with Socket.IO, enables real-time communication and media sharing, offering a seamless user experience for staying connected effortlessly.</p>
+                        <div className="btn-container">
+                            <div>
+                                <a href="https://chat-nest-zcoa.onrender.com/" target='_blank' >
+                                    <button
+                                        className="btn btn-color-2 project-btn"
+                                    >
+                                        Check it out
+                                    </button>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://github.com/MuhammadAli7896/Chatting-Web-Application" target='_blank' >
+                                    <button
+                                        className="btn btn-color-2 project-btn"
+                                    >
+                                        Check Code
+                                    </button>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
                     <div className="details-container color-container">
                         <div className="article-container">
                             <img
@@ -35,7 +68,7 @@ function Projects() {
                             </a>
                         </div>
                     </div>
-                    <div className="details-container color-container">
+                    {/* <div className="details-container color-container">
                         <div className="article-container">
                             <img
                                 src={highOrder}
@@ -54,7 +87,7 @@ function Projects() {
                                 </button>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="details-container color-container">
                         <div className="article-container">
                             <img
@@ -148,7 +181,7 @@ function Projects() {
                 src={arrow}
                 alt="Arrow icon"
                 className="icon arrow"
-                onClick={() => window.location.href = './#contact'}
+                onClick={() => window.location.href = './#skills'}
             />
         </section>
     );

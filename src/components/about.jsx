@@ -36,7 +36,7 @@ function About() {
                                 className="icon"
                             />
                             <h3>Education</h3>
-                            <p>Bachelors in Computer Science<br />3rd Semester</p>
+                            <p>Bachelors in Computer Science<br/>2022-26 <br />4th Semester</p>
                         </div>
                     </div>
                     <div className="text-container">

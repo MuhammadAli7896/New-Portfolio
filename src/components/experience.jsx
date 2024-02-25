@@ -29,7 +29,7 @@ const Experience = () => {
                     src={Arrow}
                     alt="Arrow icon"
                     className="icon arrow"
-                    onClick={() => window.location.href = './#skills'}
+                    onClick={() => window.location.href = './#projects'}
                 />
             </div>
         </section>
