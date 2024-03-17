@@ -13,6 +13,7 @@ import sql from "../assets/sql.png";
 import express from "../assets/express.png";
 import mongodb from "../assets/mongodb.png";
 import socketio from "../assets/socket.io.png";
+import nextjs from "../assets/nextjs.png";
 
 function Skills() {
     return (
@@ -90,6 +91,17 @@ function Skills() {
                                     <p>Intermediate</p>
                                 </div>
                             </article>
+                            <article>
+                                <img
+                                    src={nextjs}
+                                    alt="Next.js icon"
+                                    className="icon"
+                                />
+                                <div>
+                                    <h3>Next.js</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
                         </div>
                     </div>
                     <div className="details-container">
@@ -159,6 +171,17 @@ function Skills() {
                                 <div>
                                     <h3>Socket.io</h3>
                                     <p>Basic</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img
+                                    src={nextjs}
+                                    alt="Next.js icon"
+                                    className="icon"
+                                />
+                                <div>
+                                    <h3>Next.js</h3>
+                                    <p>Intermediate</p>
                                 </div>
                             </article>
                         </div>

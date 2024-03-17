@@ -2,12 +2,11 @@ import React from 'react';
 import "../App.css";
 import mealGen from "../assets/Meal-Gen.jpeg";
 import typingGame from "../assets/typing-game.jpeg";
-import regForm from "../assets/Reg-Form.png";
 import eTracker from "../assets/etracker.png";
-import highOrder from "../assets/high-order.jpeg";
 import darkMode from "../assets/dark-mode.png";
 import arrow from "../assets/arrow.png";
 import chatting from "../assets/chatting.jpeg"
+import prompt from "../assets/prompt.jpeg"
 
 function Projects() {
     return (
@@ -51,43 +50,36 @@ function Projects() {
                     <div className="details-container color-container">
                         <div className="article-container">
                             <img
-                                src={eTracker}
+                                src={prompt}
                                 alt="Project 1"
                                 className="project-img"
                             />
                         </div>
-                        <h2 className="experience-sub-title project-title">Expense Tracker</h2>
-                        <p>Track and manage your expenses seamlessly with my latest project created using HTML, CSS, and JavaScript. Experience a user-friendly expense tracking interface offering diverse options and operations, empowering you to take control of your financial journey.</p>
+                        <h2 className="experience-sub-title project-title">Prompt Odyssey</h2>
+                        <p>A Next.js based web application, enhanced with Tailwind CSS which offer users to create, edit and share AI chatbots prompts. It gives a smooth, responsive and seamless user experience to stay connected and work mutually.</p>
                         <div className="btn-container">
-                            <a href="https://github.com/MuhammadAli7896/HTML-CSS-JS-Projects/tree/main/Project_9%20(Expense%20Tracker)" target='_blank' >
-                                <button
-                                    className="btn btn-color-2 project-btn"
-                                >
-                                    Check Code
-                                </button>
-                            </a>
+                            <div>
+                                <a href="https://prompt-odyssey.onrender.com/" target='_blank' >
+                                    <button
+                                        className="btn btn-color-2 project-btn"
+                                    >
+                                        Check it out
+                                    </button>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://github.com/MuhammadAli7896/Prompt-Odyssey" target='_blank' >
+                                    <button
+                                        className="btn btn-color-2 project-btn"
+                                    >
+                                        Check Code
+                                    </button>
+                                </a>
+                            </div>
+                            
                         </div>
                     </div>
-                    {/* <div className="details-container color-container">
-                        <div className="article-container">
-                            <img
-                                src={highOrder}
-                                alt="Project 2"
-                                className="project-img"
-                            />
-                        </div>
-                        <h2 className="experience-sub-title project-title">High Order Array Methods</h2>
-                        <p>A dynamic web application built using HTML, CSS, and JavaScript. Explore randomly generated user profiles, their wealth, and utilize higher order array methods for sorting, filtering, mapping, and aggregation, gaining insights into wealth disparities and programming techniques.</p>
-                        <div className="btn-container">
-                            <a href="https://github.com/MuhammadAli7896/HTML-CSS-JS-Projects/tree/main/Project_5%20(High%20Order%20Array%20Methods)" target='_blank' >
-                                <button
-                                    className="btn btn-color-2 project-btn"
-                                >
-                                    Check Code
-                                </button>
-                            </a>
-                        </div>
-                    </div> */}
+                    
                     <div className="details-container color-container">
                         <div className="article-container">
                             <img
@@ -134,23 +126,21 @@ function Projects() {
                     <div className="details-container color-container">
                         <div className="article-container">
                             <img
-                                src={regForm}
-                                alt="Project 3"
+                                src={eTracker}
+                                alt="Project 1"
                                 className="project-img"
                             />
                         </div>
-                        <h2 className="experience-sub-title project-title">Reigstration Form</h2>
-                        <p>Check this React.js project featuring a meticulously crafted form. Users enjoy a seamless process as the form ensures data integrity by validating required fields, notifying users of password length requirements, verifying email validity, and providing a fresh slate by clearing fields upon successful submission.</p>
+                        <h2 className="experience-sub-title project-title">Expense Tracker</h2>
+                        <p>Track and manage your expenses seamlessly with my latest project created using HTML, CSS, and JavaScript. Experience a user-friendly expense tracking interface offering diverse options and operations, empowering you to take control of your financial journey.</p>
                         <div className="btn-container">
-                            <div className="btn-container">
-                                <a href="https://github.com/MuhammadAli7896/ReactJS-Projects/tree/main/RegistrationForm" target='_blank' >
-                                    <button
-                                        className="btn btn-color-2 project-btn"
-                                    >
-                                        Check Code
-                                    </button>
-                                </a>
-                            </div>
+                            <a href="https://github.com/MuhammadAli7896/HTML-CSS-JS-Projects/tree/main/Project_9%20(Expense%20Tracker)" target='_blank' >
+                                <button
+                                    className="btn btn-color-2 project-btn"
+                                >
+                                    Check Code
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div className="details-container color-container">

@@ -74,7 +74,7 @@ function Contact() {
 
     };
     return (
-        <section id="contact">
+        <section id="contact" style={{marginTop: "5rem"}}>
             <p className="section__text__p1">Get in Touch</p>
             <h1 className="title">Contact Me</h1>
             <div className="contact-info-upper-container">
